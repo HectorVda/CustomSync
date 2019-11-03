@@ -1,0 +1,16 @@
+﻿<Window x:Class="CustomSync.CopyFrm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomSync"
+        mc:Ignorable="d"
+        Title="Copy" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="gridConfigs" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="642"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="419" Margin="642,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="150"/>
+        <Button Cursor="Hand" x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="647,10,0,0" VerticalAlignment="Top" Width="135" Height="57" Click="btnAdd_Click"/>
+        <Button Cursor="Hand" x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="647,72,0,0" VerticalAlignment="Top" Width="135" Height="57"/>
+
+    </Grid>
+</Window>
